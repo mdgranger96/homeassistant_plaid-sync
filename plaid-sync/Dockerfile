@@ -6,6 +6,7 @@ COPY requirements.txt /app/
 RUN pip3 install --break-system-packages --no-cache-dir -r requirements.txt
 
 COPY . /app/
+COPY run.sh /run.sh
 
 RUN chmod +x /run.sh
 
