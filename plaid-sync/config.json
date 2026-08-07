@@ -1,6 +1,6 @@
 {
   "name": "Plaid Sync",
-  "slug": "plaid_sync",
+  "slug": "plaid-sync",
   "version": "1.0",
   "type": "app",
   "description": "Plaid transaction sync service for Home Assistant",
